@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# React.js Admin Dashboard with Ant Design
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is an admin dashboard built using React.js and Ant Design. It was created as a learning exercise to gain hands-on experience with React.js concepts such as state management, hooks, and conditional rendering. The dashboard allows users to navigate between different sections, including inventory, customers, orders, and revenue, with real-time rendering of respective lists.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [Learning Highlights](#learning-highlights)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Clickable navigation options for inventory, customers, orders, and revenue.
+- Real-time rendering of data lists based on user selection.
+- Utilizes Ant Design for a polished and responsive UI.
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React.js: A popular JavaScript library for building user interfaces.
+- Ant Design: A design system and UI library for React.
+- JSON Data Mocking: Dummy JSON data used for simulating real-time data rendering.
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run this project locally, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone this repository.
+2. Navigate to the project directory in your terminal.
+3. Install the dependencies using `npm install` or `yarn install`.
+4. Start the development server with `npm start` or `yarn start`.
+5. Open your web browser and access the application at `http://localhost:3000`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+The project follows a simple directory structure where `Dashboard.js` serves as the main component, and individual sections like `Inventory.js`, `Customers.js`, `Orders.js`, and `Revenue.js` are conditionally rendered based on user selection.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Learning Highlights
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### State Management
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Implemented state management using React's built-in state.
+- Demonstrated the use of state to control the rendering of different sections of the dashboard.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Hooks
 
-## Learn More
+- Utilized React hooks such as `useState` for managing component-level state.
+- Showcased how to use hooks to update the UI in response to user interactions.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Conditional Rendering
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Employed conditional rendering to display the appropriate content based on the selected option.
+- Highlighted the use of conditional logic to control the flow of the application.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
